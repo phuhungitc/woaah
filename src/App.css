@@ -1,0 +1,103 @@
+body{
+  font-size: 13px;
+  font-family: "Proxima Nova", Arial;
+  color: #333333;
+}
+body a{
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+body a:hover,
+body a:focus{
+  text-decoration: none;
+  outline: none;
+}
+.btn.btn-black{
+  background: #333333;
+  border: 0;
+  border-radius: 0;
+  color: #ffffff;
+  min-width: 210px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 12px 1rem;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.btn.btn-line{
+  border: 1px solid #ffffff;
+  border-radius: 0;
+  color: #ffffff;
+  min-width: 210px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 12px 1rem;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.btn.btn-lined{
+  border: 1px solid #333333;
+  border-radius: 0;
+  color: #333333;
+  min-width: 210px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 12px 1rem;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.btn.btn-black:hover{
+  background: #E96969;
+}
+
+.btn.btn-line:hover{
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #333333;
+}
+.btn.btn-lined:hover{
+  background: #333333;
+  color: #ffffff;
+}
+/*Font*/
+.fs-40{
+  font-size: 40px;
+  line-height: 45px;
+}
+.fs-26{
+  font-size: 26px;
+}
+.fs-16{
+  font-size: 16px;
+}
+.fs-11{
+  font-size: 11px;
+}
+.ff-BonVivant{
+  font-family: "Bon Vivant";
+}
+.fw-600{
+  font-weight: 600;
+}
+/*Color*/
+.cl-red{
+  color: #E96969;
+}

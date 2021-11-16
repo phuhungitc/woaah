@@ -1,0 +1,47 @@
+.gift_block .gift_item{
+    text-align: center;
+    cursor: pointer;
+}
+.gift_block .gift_item figure{
+    position: relative;
+    border: 2px solid #F2F2F2;
+    border-radius: 50%;
+    padding: 20px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.gift_block .gift_item figure:before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: 5px solid #E96969;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.gift_block .gift_item img{
+    max-width: 100%;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    overflow: hidden;
+}
+.gift_block .gift_item:hover figure{
+    border-color: transparent;
+}
+.gift_block .gift_item:hover figure:before{
+    opacity: .5;
+}

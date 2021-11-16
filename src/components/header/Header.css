@@ -1,0 +1,34 @@
+#header_site{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+#header_site .TopLine{
+    background: #333333;
+    color: #ffffff;
+}
+#header_site .TopLine .freeship_tag{
+    font-size: 11px;
+}
+#header_site .TopLine a{
+    color: #ffffff;
+}
+#header_site .logo_site img{
+    height: 64px;
+}
+#header_site .header_info a{
+    color: #333333;
+    font-weight: 600;
+}
+#header_site .header_info .menu_site{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+#header_site .header_info .menu_site li:not(:last-child){
+    margin-right: 30px;
+}

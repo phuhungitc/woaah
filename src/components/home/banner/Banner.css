@@ -1,0 +1,25 @@
+#Banner_site{
+    position: relative;
+}
+#Banner_site img{
+    max-width: 100%;
+    height: auto;
+}
+#Banner_site .meta_info{
+    position: absolute;
+    width: 100%;
+    bottom: 90px;
+}
+#Banner_site .meta_info .sub_title{
+    font-family: "Bon Vivant", Arial;
+    font-size: 72px;
+    line-height: 75px;
+    color: #E96969;
+}
+#Banner_site .meta_info .title{
+    font-weight: bold;
+    color: #1E2407;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+}

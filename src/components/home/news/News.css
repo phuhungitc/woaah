@@ -1,0 +1,9 @@
+.News_featured .item_post h4 a{
+    color: #333333;
+}
+.News_featured .item_post:hover h4 a{
+    color: #E96969;
+}
+.News_featured .item_post .post_excerpt a{
+    color: #2BCAAD;
+}
