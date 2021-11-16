@@ -11,7 +11,7 @@ function Header() {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="text-uppercase freeship_tag">
-                                Hello anh Vương Comma
+                                free shipping in HCM on all orders over $25
                             </div>
                         </div>
                         <div className="col-md-6">

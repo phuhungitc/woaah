@@ -9,6 +9,7 @@ import Shop from './components/shop/Shop';
 import Footer from './components/footer/Footer';
 import {BrowserRouter as Router,} from "react-router-dom";
 import {topbar, Switch, Route} from "react-router-loading";
+
 function App() {
     topbar.config({
         autoRun: false,
